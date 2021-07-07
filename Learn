@@ -98,5 +98,20 @@
     "متن": "ساخت منو ساده",
     "لینک": "https://www.aparat.com/video/video/embed/videohash/jRdxG/vt/frame",
     "کد": "No Code"
+  },
+  {
+    "متن": "ساخت چک کننده اینترنت",
+    "لینک": "https://www.aparat.com/video/video/embed/videohash/bISBY/vt/frame",
+    "کد": "No Code"
+  },
+  {
+    "متن": "ساخت دیالوگ یکبار مصرف",
+    "لینک": "https://www.aparat.com/video/video/embed/videohash/q94ND/vt/frame",
+    "کد": "No Code"
+  },
+  {
+    "متن": "نظر به برنامه از طریق مایکت",
+    "لینک": "https://www.aparat.com/video/video/embed/videohash/1H5SR/vt/frame",
+    "کد": "String url\u003d \"myket://comment?id\u003dنام پکیج برنامه\";\nIntent intent \u003d new Intent();\nintent.setAction(Intent.ACTION_VIEW);\nintent.setData(Uri.parse(url));\nstartActivity(intent);\n"
   }
 ]

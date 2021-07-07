@@ -72,7 +72,7 @@
   {
     "متن": "تبلیغ تپسل",
     "لینک": "https://www.aparat.com/video/video/embed/videohash/MopTX/vt/frame",
-    "کد": "No Code"
+    "کد": "ایمپورت : ir.tapsell.sdk.bannerads.TapsellBannerType; import ir.tapsell.sdk.bannerads.TapsellBannerView\n اینجکت : app:tapsell_banner_type\u003d\"banner_300x250\" app:tapsell_zone_id\u003d\"5ca8aca83a2e170001ef0071\" \nکنورت : ir.tapsell.sdk.bannerads.TapsellBannerView\n ایمپورت ادیتور :\nimport ir.tapsell.sdk.Tapsell; \nکلید تپسل ادیتور :\n Tapsell.initialize(this, \"kttjtpmdehsmnhlkkrlfekisnfifqtdallotfeccaspodsnqspelhcinjjdbiqtmhaglsn\");"
   },
   {
     "متن": "چرخش با سیک بار",

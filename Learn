@@ -113,5 +113,15 @@
     "متن": "نظر به برنامه از طریق مایکت",
     "لینک": "https://www.aparat.com/video/video/embed/videohash/1H5SR/vt/frame",
     "کد": "String url\u003d \"myket://comment?id\u003dنام پکیج برنامه\";\nIntent intent \u003d new Intent();\nintent.setAction(Intent.ACTION_VIEW);\nintent.setData(Uri.parse(url));\nstartActivity(intent);\n"
+  },
+  {
+    "متن": "ساخت اعلان",
+    "لینک": "https://www.aparat.com/video/video/embed/videohash/CsukG/vt/frame",
+    "کد": "/*\nDeveloper :- Aauraparti YouTube channel\nPowered by :- Gopal\n*/\n\nfinal Context context \u003d getApplicationContext();\n\n\nNotificationManager notificationManager \u003d (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);\n\nIntent intent \u003d new Intent(this, MainActivity.class); \nintent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP); \nPendingIntent pendingIntent \u003d PendingIntent.getActivity(this, 0, intent, 0); \nandroidx.core.app.NotificationCompat.Builder builder; \n\n    int notificationId \u003d 1;\n    String channelId \u003d \"channel-01\";\n    String channelName \u003d \"Channel Name\";\n    int importance \u003d NotificationManager.IMPORTANCE_HIGH;\n\n    if (android.os.Build.VERSION.SDK_INT \u003e\u003d android.os.Build.VERSION_CODES.O) {\n        NotificationChannel mChannel \u003d new NotificationChannel(\n                channelId, channelName, importance);\n        notificationManager.createNotificationChannel(mChannel);\n    }\n\n  \n androidx.core.app.NotificationCompat.Builder mBuilder \u003d new androidx.core.app.NotificationCompat.Builder(context, channelId)\n            .setSmallIcon(R.drawable.icon)\n            .setContentTitle(_av1)\n            .setContentText(_av2)\n            .setAutoCancel(true)\n            .setOngoing(false)\n            .setContentIntent(pendingIntent);\n    TaskStackBuilder stackBuilder \u003d TaskStackBuilder.create(context);\n    stackBuilder.addNextIntent(intent);\n    PendingIntent resultPendingIntent \u003d stackBuilder.getPendingIntent(\n            0,\n            PendingIntent.FLAG_UPDATE_CURRENT\n    );\n    mBuilder.setContentIntent(resultPendingIntent);\n\n    notificationManager.notify(notificationId, mBuilder.build());"
+  },
+  {
+    "متن": "ساخت دراور و دستور دادن به آن",
+    "لینک": "https://www.aparat.com/video/video/embed/videohash/U3uAt/vt/frame",
+    "کد": "No Code"
   }
 ]
